@@ -18,6 +18,6 @@ function secondEquation()
 {
 	
 	input
-	secondEquationResult=$(( $numberOne * $numberTwo + $numberThree ))
+	secondEquationResult=$(( $input1 * $input2 + $input3 ))
 }
 secondEquation
