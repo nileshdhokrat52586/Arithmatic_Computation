@@ -18,12 +18,12 @@ function secondEquation()
 {
 
         input
-        secondEquationResult=$(( $numberOne * $numberTwo + $numberThree ))
+        secondEquationResult=$(( $input1 * $input2 + $input3 ))
 }
 secondEquation
 function thirdEquation()
 {
 	input
-	thirdEquationResult=`expr "scale=3; $numberThree + $numberOne / $numberTwo "|bc`
+	thirdEquationResult=$(( $input3 + $input1 / $input2 ))
 }
 thirdEquation
